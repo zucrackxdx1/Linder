@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario - input type="hidden"</title>
+</head>
+<body>
+  <h1>Formulario - input type="hidden</h1>
+</body>
+<p>
+    <h3>
+        Un campo hidden se lo denomina campo oculto. Este tipo de control no visualiza nada dentro del formulario.
+
+Su utilidad se presenta cuando desde el servidor se genera una página dinámica por ejemplo mediante PHP y se almacena en un campo oculto un valor que se rescatará al subir el formulario al servidor.
+    </h3>
+</p>
+<body>
+<form action="registrardatos.php" method="post">
+  <input type="hidden" value="10:20" name="hora">
+  Ingrese su nombre:
+  <input type="text" name="nombre" size="30">
+  <br>
+  <input type="submit" value="Enviar">
+</form>
+<a href="pagina1.html">salir</a>
+</body>
+</html>

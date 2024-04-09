@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>Formulario - orden de foco de controles.</title>
+ </head>   
+ <body>
+   <h1>Formulario - orden de foco de controles</h1>
+ </body>
+ <p>
+    <h3>Todos los controles de formulario pueden definir una propiedad llamada tabindex que es un valor entero entre 0 y 32767. Este número indica el orden en que los controles toman foco. Cuando se presiona la tecla tab el navegador pasa el foco al siguiente control.</h3>
+ </p>
+<body>
+<form action="registrardatos.php" method="post">
+<input type="text" name="text1" size="6" tabindex="1">
+<input type="text" name="text2" size="6" tabindex="4">
+<input type="text" name="text3" size="6" tabindex="7">
+<br>
+<input type="text" name="text4" size="6" tabindex="2">
+<input type="text" name="text5" size="6" tabindex="5">
+<input type="text" name="text6" size="6" tabindex="8">
+<br>
+<input type="text" name="text7" size="6" tabindex="3">
+<input type="text" name="text8" size="6" tabindex="6">
+<input type="text" name="text9" size="6" tabindex="9">
+<br>
+<input type="submit" value="enviar" tabindex="10">
+</form>
+
+<a href="pagina1.html">salir</a>
+
+</body>
+ </html>

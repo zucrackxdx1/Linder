@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Formulario - Inhabilitar controles.</title>
+</head>
+<body>
+    <h1>Formulario - Inhabilitar controles</h1>
+</body>
+<p>Todos los controles que hemos visto podemos hacer que aparezcan inhabilitados.
+
+    Supongamos que disponemos 3 controles de tipo radio para indicar que sección del sitio deseamos ingresar. Nosotros queremos mostrar que tiene 3 secciones pero una no está disponible. Esto lo resolvemos deshabilitando un radio:</p>
+<body>
+<form action="registrardatos.php" method="post">
+<h3>Seleccione la seccion donde desea ingresar</h3>
+<br>
+<input type="radio" name="seccion" value="1" disabled>Niños<br>
+<input type="radio" name="seccion" value="2">adolecentes<br>
+<input type="radio" name="seccion" value="3">Mayores<br>
+<input type="submit" value="Enviar">
+</form>
+
+<a href="pagina1.html">salir</a>
+
+
+
+</body>
+</html>

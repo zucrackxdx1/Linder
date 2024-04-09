@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Formulario - text/password/textarea y readonly</title>
+</head>
+<body>
+  <h1>Formulario - text/password/textarea y readonly</h1>
+</body>
+<p>
+    <h3>tra propiedad que podemos asignarle a los controles que creamos con el elemento input y también el elemento textarea es readonly.
+
+        Si definimos la propiedad readonly a un control el mismo es de solo lectura y no podemos modificar su contenido. Esta propiedad tiene uso cuando mediante un lenguaje de script (generalmente javascript) modificamos el control cambiandolo de estado ante ciertos eventos.</h3>
+</p>
+<body>
+<form action="registrardatos.php" method="post">
+  Ingrese su nombre:
+  <input type="text" name="nombre" size="30" value="Interpolacion" readonly><br>
+  Contrato:<br>
+  <textarea name="comentarios" rows="5" cols="60" readonly>
+Por la presente ..............................
+</textarea> 
+  <br>
+  <input type="submit" value="Enviar">
+</form>
+<a href="pagina1.html">salir</a>
+</body>
+</html>

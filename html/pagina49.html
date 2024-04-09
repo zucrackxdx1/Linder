@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frames - Asignación de medidas en píxeles</title>
+</head>
+<body>
+    <h1>Frames - Asignación de medidas en píxeles</h1>
+</body>
+<P>
+    <h3>
+        Cuando lo indicamos en porcentajes al redimensionar la ventana del navegador el tamaño de los frame se redimensiona en forma proporcional.
+
+        Hay situaciones donde queremos que un frame no se redimensione, por ejemplo que el frame de la izquierda donde ubicaríamos un menú de opciones siempre permanezca inalterable. Esto lo logramos indicando un valor absoluto para dicho frame.
+        
+        Veamos un ejemplo donde definimos 3 frames dividiendo la ventana en tres columna. Luego queremos que el frame de la izquierda y la derecha tengan medidas inalterables, para esto lo definimos de la siguiente forma:<br>
+<br>
+        Los Frames están discontinuados para las versiones actuales de HTML. Solamente téngalo en cuenta si tiene que hacer el mantenimiento de sitios que utilizan este elemento HTML. Evite desarrollar nuevos sitios utilizando Frames.
+    </h3>
+</P>
+
+<body>
+    <frameset cols="200,*,200">
+        <frame src="pagina2.html">
+        <frame src="pagina3.html">
+        <frame src="pagina4.html">
+        <noframes>
+        <p>El navegador no soporta frames</p>
+        </noframes>
+        </frameset>
+<br>
+<a href="pagina1.html">salir</a>
+</body>
+</html>

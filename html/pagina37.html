@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario - input type="file"</title>
+</head>
+<body>
+    <h1>Formulario - input type="file</h1>
+</body>
+<p>
+    <h3>El control de tipo file nos permite enviar un archivo al servidor. Nuevamente el HTML solo indica al navegador que debe enviar el archivo al servidor pero debe haber en el servidor un programa que lo almacene en una carpeta de dicho servidor.</h3>
+</p>
+<body>
+<form action="resgistrardatos.php" method="post" enctype="multipart/form-data">
+<h4>ingrese su nombre:</h4>
+<input type="text" name="nombre" size="30"><br>
+<h4>seleccione la foto</h4>
+<input type="file" name="foto">
+<br>
+<input type="submit" value="enviar">
+</form>
+<p>
+<a href="pagina1.html">salir</a>
+</p>
+
+</body>
+</html>

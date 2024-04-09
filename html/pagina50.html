@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Frames - Propiedades del elemento frame
+    </title>
+</head>
+<body>
+    <h1> Frames - Propiedades del elemento frame</h1>
+</body>
+<p>
+    <h3>Hasta hora hemos utilizado y definido las propiedades para la marca de inicio del elemento frame:
+
+        src
+        name
+        Otras propiedades que pasaremos a ver, comprender y probar su funcionamiento son:<br>
+        <br>
+        
+        noresize Esta propiedad no requiere que se le asigne un valor. Si se encuentra presente el frame no podrá ser redimensionado con el mouse por el visitante del sitio.
+        Por ejemplo si disponemos un menú de enlaces en un frame ubicado a la izquierda es muy probable que definamos la propiedad noresize ya que poca utilidad tiene agrandar o contraer esta región de pantalla.<br>
+        <br>
+        frameborder Esta propiedad puede tomar los valores 1 o 0. Por defecto un frame aparece con borde es decir esta propiedad por defecto tiene el valor 1. Si queremos que el borde no aparezca debemos inicializarla con 0.
+        Hay que tener en cuenta que por más que los bordes no existan si se puede redimensionar el frame con el mouse.<br>
+        <br>
+        scrolling Los valores posibles de esta propiedad son: "auto","yes","no". Por defecto está inicializada con el valor "auto". El valor auto significa que el navegador decide si se debe mostrar la barra de scroll. La mostrará solo si algún contenido del frame no se ve.
+        Si definimos el valor "yes" estamos indicando que siempre debe estar visible la barra de navegación y por último si asignamos el valor "no" estaremos indicando que nunca debe aparecer la barra de navegación para dicho frame.<br>
+        <br>
+        Los Frames están discontinuados para las versiones actuales de HTML. Solamente téngalo en cuenta si tiene que hacer el mantenimiento de sitios que utilizan este elemento HTML. Evite desarrollar nuevos sitios utilizando Frames.
+    
+    </h3>
+</p>
+
+<body>
+    <frameset cols="200,*">
+        <frame src="pagina2.html" frameborder="0" noresize>
+        <frame src="pagina3.html" frameborder="0" scrolling="yes" 
+        noresize>
+        <noframes>
+        <p>El navegador no soporta frames</p>
+        </noframes>
+        </frameset><br>
+        
+        <a href="pagina1.html">salir</a>    
+</body>
+
+</html>

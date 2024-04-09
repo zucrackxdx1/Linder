@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Formulario - select (agrupamiento de opciones)</title>
+</head>
+<body>
+<h1>Formulario - select</h1>
+
+<p>
+<h3>
+    Hemos visto que podemos crear cuadros de selección individual o de selección múltiple. Ahora veamos que podemos agrupar las opciones que tiene el cuadro de selección, esto tiene sentido si el cuadro de selección tiene muchos items.
+
+    Se cuenta con un nuevo elemento llamado optgroup que agrupa un conjunto de elementos option.
+    
+    Veamos un ejemplo de agrupar una serie de opciones, agruparemos una serie de frutas y verduras:
+</h3>
+</p>
+
+<body>
+
+<form action="registrar datos.php" method="post">
+seleccione una fruta o verdura:
+<select name="articulo">
+<optgroup label="frutas">
+<option value="1">naranjas</option>
+<option value="2">manzanas</option>
+<option value="3">sandias</option>
+<option value="4">duraznos</option>
+<option value="5">bananos</option>
+<option value="6">peras</option>
+</optgroup>
+<optgroup label="verduras">
+<option value="7">lechuga</option>
+<option value="8">chayote</option>
+<option value="9">papas</option>
+<option value="10">zanahorias</option>
+<option value="11">batatas</option>
+<option value="12">rabanitos</option>
+<option value="13">calabaza</option>
+<option value="14">zapallo</option>
+<option value="15">berenjena</option>
+</optgroup> 
+</select>
+<br>
+<input type="submit" value="enviar">
+</form>
+<a href="pagina1.html">salir</a>
+
+</body>
+</body>
+</html>
